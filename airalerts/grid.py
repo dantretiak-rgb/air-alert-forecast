@@ -29,9 +29,8 @@ def make_target(parsed_df, start_utc, end_utc):
         y = matched['next_alert'].notna() & (matched['next_alert'] <= limit_time)
         
         group = group.copy()
-        group['y'] = y.astype(int)
+        group['y'] = y.values.astype(int)
         results.append(group)
         
     final_grid = pd.concat(results, ignore_index=True)
     return final_grid.sort_values(['region', 't']).reset_index(drop=True)
-    
