@@ -1,0 +1,21 @@
+{
+  "upstream_repo": "Vadimkin/ukrainian-air-raid-sirens-dataset",
+  "upstream_commit": "bf0c323c78e3e4508721458797dcd38c95df13f3",
+  "upstream_commit_time_utc": "2026-10-11T04:50:14+00:00",
+  "upstream_license": "MIT (copy in data/UPSTREAM_LICENSE.txt)",
+  "notes": "Values below were measured on the files at the pinned commit. The files are a snapshot; later upstream commits are NOT used.",
+  "files": {
+    "volunteer_data_en.csv": {
+      "sha256": "d03747ee8bf056032b2eeef50cdcf964d65fa60a92243e91862db48b31377465",
+      "rows": 115989,
+      "last_started_at_utc": "2026-10-11 04:36:59+00:00",
+      "exact_duplicate_rows": 0
+    },
+    "official_data_en.csv": {
+      "sha256": "b396f87696243069eec0219880e87dcd642b20beb0a7bae0d0e1f61e1ed20ec4",
+      "rows": 299275,
+      "last_started_at_utc": "2026-09-07 05:28:22+00:00",
+      "exact_duplicate_rows": 113845
+    }
+  }
+}

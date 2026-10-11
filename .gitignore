@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# The official file is large; it is re-downloaded (and hash-verified) by fetch_data.py
+data/raw/official_data_en.csv
